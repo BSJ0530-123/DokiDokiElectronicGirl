@@ -6,6 +6,7 @@ public class jkl : MonoBehaviour
     void Start()
     {
         Debug.Log("AAAAAAAAAAAAAAAAAAAA");
+        Debug.Log("AAAAAAAAAAAAAAAAAAAA");
     }
 
     // Update is called once per frame

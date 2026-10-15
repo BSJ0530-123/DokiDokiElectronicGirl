@@ -18,6 +18,8 @@ namespace MiYeonShi.Gauge
         [SerializeField] private ParticleSystem _loveEffect;
         private ParticleSystem.EmissionModule _loveEmission;
 
+        public bool isClear = false;
+        
         public int max = 5;
 
         public int _current;
@@ -45,6 +47,18 @@ namespace MiYeonShi.Gauge
             if (_loveEffect == null || _loveParticleSystem == null)
                 return;
             _loveEmission.rateOverTime = 0;
+        }
+
+        private void Update()
+        {
+            if(Current == max)
+                isClear =  true;
+
+            if (isClear)
+            {
+                // 클리어 씬이동
+            }
+                
         }
 
         public void Increase()

@@ -1,5 +1,6 @@
 using System;
 using MiYeonShi.Context;
+using MiYeonShi.Gauge;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -16,10 +17,16 @@ namespace MiYeonShi.Button
         [SerializeField] private ContextUI contextUI;
         [SerializeField] private OXInputGroup input;
         [SerializeField] private ContextSO[] contexts;
+        private GaugeManager _gaugeManager;
 
         private ContextSO _current;
         private int _index;
         private bool _waitingAnswer;
+
+        private void Awake()
+        {
+            _gaugeManager = GetComponentInChildren<GaugeManager>();
+        }
 
         private void Start()
         {
@@ -75,6 +82,12 @@ namespace MiYeonShi.Button
             input.SetActive(false);
             contextUI.Hide();
             OnFinished?.Invoke();
+            Debug.Log("Quiz Finished");
+
+            if (!_gaugeManager.isClear || _gaugeManager.Current < _gaugeManager.max)
+            {
+                // 게임오버 씬 전환
+            }
         }
         
         //클릭 받기

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 52fee277d1928034a81962fa5a8fb99a
+guid: cee4e0267b6b3f44a84394a1e3569028
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5165467057074661328
-    second: malpungsun-export_0
+      213: -6391524520150570646
+    second: malpungsun-export-export_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: malpungsun-export_0
+      name: malpungsun-export-export_0
       rect:
         serializedVersion: 2
         x: 4
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d7eaebabec6fa740800000000000000
-      internalID: 5165467057074661328
+      spriteID: a69e93b005ebc47a0800000000000000
+      internalID: -6391524520150570646
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      malpungsun-export_0: 5165467057074661328
+      malpungsun-export-export_0: -6391524520150570646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
