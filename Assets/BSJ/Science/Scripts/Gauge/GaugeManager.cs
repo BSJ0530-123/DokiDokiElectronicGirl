@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace MiYeonShi.Gauge
@@ -56,7 +57,7 @@ namespace MiYeonShi.Gauge
 
             if (isClear)
             {
-                // 클리어 씬이동
+                SceneManager.LoadScene("GameClear");
             }
                 
         }
