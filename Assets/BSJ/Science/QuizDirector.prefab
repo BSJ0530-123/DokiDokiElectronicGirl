@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7224758668388154614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4059454560549423037}
+  - component: {fileID: 5197814009024092467}
+  - component: {fileID: 6382623288494938128}
+  - component: {fileID: 3448216699317106072}
+  m_Layer: 0
+  m_Name: QuizDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4059454560549423037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224758668388154614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.48285, y: -0.76045, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5197814009024092467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224758668388154614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8e3aeacd5b4ae1bc5a86c5f1b233d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Button.QuizDirector
+  contextUI: {fileID: 0}
+  input: {fileID: 0}
+  contexts:
+  - {fileID: 11400000, guid: 663cf792ff2e0e242a3966513f98ef8d, type: 2}
+  - {fileID: 11400000, guid: 616dd9052a8780a489b9f1b336e065ff, type: 2}
+--- !u!114 &6382623288494938128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224758668388154614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d8854cc0ea5fc48b25d7f1ee4367fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Gauge.AffectionScorer
+  quizDirector: {fileID: 5197814009024092467}
+  gauge: {fileID: 3448216699317106072}
+  correctPerGauge: 5
+--- !u!114 &3448216699317106072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224758668388154614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b8c5360077d38408671d80086c819d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Gauge.GaugeManager
+  max: 5
