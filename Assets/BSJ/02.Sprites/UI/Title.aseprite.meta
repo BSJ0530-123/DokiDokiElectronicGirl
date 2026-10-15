@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 44aa070f5d0a11042b37eaebdb5ef2d7
+guid: 58cc94e6e86ee4b45915fa50a02770eb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,7 +36,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 85
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 639276792187178946
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: ChatUI
+  - name: Title
     originalName: 
-    pivot: {x: 0.4532164, y: -0.08163265}
+    pivot: {x: 0.49390242, y: -0.29787236}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 171
-      height: 98
-    spriteID: 3a510904454c92446b38eef77c82d157
+      width: 82
+      height: 47
+    spriteID: 090b05dd0ca061d45b0f8428824f3014
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,33 +153,81 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 405676578
+      value0: 2435266816
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: ChatUI
+    name: Title
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: ChatUI
+    - name: Title
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 24
-        y: 8
-        width: 171
-        height: 98
-      spriteId: 3a510904454c92446b38eef77c82d157
+        x: 2
+        y: 14
+        width: 82
+        height: 47
+      spriteId: 090b05dd0ca061d45b0f8428824f3014
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   tileSets: []
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 203, y: 128}
-  previousTextureSize: {x: 256, y: 128}
+  canvasSize: {x: 85, y: 85}
+  previousTextureSize: {x: 128, y: 64}
