@@ -4,7 +4,6 @@ using UnityEngine.Serialization;
 
 namespace MiYeonShi.Gauge
 {
-    /// <summary>정답이면 쌓고 오답이면 즉시 게이지를 깎는 호감도 규칙.</summary>
     public class AffectionScorer : MonoBehaviour
     {
         [SerializeField] private QuizDirector quizDirector;

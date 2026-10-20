@@ -6,9 +6,6 @@ using UnityEngine.UI;
 
 namespace MiYeonShi.Gauge
 {
-    /// <summary>
-    /// 호감도 게이지 수치만 관리
-    /// </summary>
     public class GaugeManager : MonoBehaviour
     {
         public event Action OnGaugeChanged;

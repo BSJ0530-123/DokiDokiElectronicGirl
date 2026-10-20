@@ -642,7 +642,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5383469872644793258}
         m_TargetAssemblyTypeName: StartOrExit, Assembly-CSharp
-        m_MethodName: LoadMainScene
+        m_MethodName: RetryGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

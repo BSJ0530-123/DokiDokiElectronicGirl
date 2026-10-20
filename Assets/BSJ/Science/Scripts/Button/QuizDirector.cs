@@ -2,13 +2,11 @@ using System;
 using MiYeonShi.Context;
 using MiYeonShi.Gauge;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 namespace MiYeonShi.Button
 {
-    /// <summary>
-    /// 순서대로 대본 플레이 역할만 해주는 애
-    /// </summary>
     public class QuizDirector : MonoBehaviour
     {
         public event Action<bool> OnAnswered;
@@ -86,7 +84,7 @@ namespace MiYeonShi.Button
 
             if (!_gaugeManager.isClear || _gaugeManager.Current < _gaugeManager.max)
             {
-                // 게임오버 씬 전환
+                SceneManager.LoadScene("GameOver");
             }
         }
         
