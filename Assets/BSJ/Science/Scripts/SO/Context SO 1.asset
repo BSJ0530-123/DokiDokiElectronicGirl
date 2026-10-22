@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Context SO 1
   m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Context.ContextSO
   personName: "\uC18C\uBE44\uC804\uB825 \uD68C\uC0AC\uC6D0 \"\uC2DC\uC628\""
-  content: "\uADF8\uB798? \uB09C \uC18C\uBE44\uC804\uB825 \uC798 \uC544\uB294 \uB0A8\uC790\uAC00
-    \uC88B\uC740\uB370.."
-  isQuiz: 0
-  answerIsCorrect: 0
+  content: "\uB098\uB791 \uC815\uB9D0 \uC0AC\uADC0\uACE0 \uC2F6\uB2E4\uACE0??"
+  isQuiz: 1
+  answerIsCorrect: 1

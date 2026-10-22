@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Context SO
   m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Context.ContextSO
   personName: "\uC18C\uBE44\uC804\uB825 \uD68C\uC0AC\uC6D0 \"\uC2DC\uC628\""
-  content: "What? \uD760... \uB098\uB791 \uC0AC\uADC0\uACE0 \uC2F6\uB2E4\uACE0???"
+  content: "What? \uD760\u2026 \uB0B4\uAC00 \uB108\uBB34 \uCDE8\uD5A5\uC774\uB77C\uACE0?"
   isQuiz: 1
   answerIsCorrect: 1

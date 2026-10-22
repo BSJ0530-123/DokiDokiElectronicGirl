@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Context SO 6
   m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Context.ContextSO
   personName: "\uC18C\uBE44\uC804\uB825 \uD68C\uC0AC\uC6D0 \"\uC2DC\uC628\""
-  content: "\uC544\uC544\uC544\uC544\uC544\uC544\uC544\u314F"
+  content: "\uC804\uAE30\uAC00 \uC0AC\uC6A9\uB420 \uB54C \uC800\uD56D\uC5D0\uC11C
+    1\uCD08 \uB3D9\uC548 \uC18C\uBE44\uB418\uB294 \uC804\uAE30 \uC5D0\uB108\uC9C0\uB97C
+    \uC18C\uBE44\uC804\uB825\uC774\uB77C\uACE0 \uD558\uB2C8?"
   isQuiz: 1
   answerIsCorrect: 1
