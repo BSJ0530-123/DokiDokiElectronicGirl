@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Context.ContextSO
   personName: "\uC18C\uBE44\uC804\uB825 \uD68C\uC0AC\uC6D0 \"\uC2DC\uC628\""
   content: "\uADF8\uB7FC I = V/R \uC774\uAC74 \u2018\uC804\uB958\u2019 \uACF5\uC2DD\uC77C\uAE4C?"
-  isQuiz: 0
-  answerIsCorrect: 0
+  isQuiz: 1
+  answerIsCorrect: 1
