@@ -10,7 +10,12 @@ namespace MiYeonShi.Gauge
         [SerializeField] private GaugeManager gauge;
         [Header("호감도 스택(5면 5번 문제맞추면 한칸 올라감")]
         [SerializeField] private int correctPerGauge = 5;
-
+        
+        [Header("오디오")]
+        public AudioSource audioSource;
+        public AudioClip wrongClip;
+        
+        
         private int _correctCount;
 
         private void OnEnable()
@@ -29,11 +34,10 @@ namespace MiYeonShi.Gauge
             if (!correct)
             {
                 gauge.Decrease();
-                Debug.Log("호감도 내려감");
+                audioSource.PlayOneShot(wrongClip);
                 return;
             }
             
-            Debug.Log("맞춰서, 스택 쌓임");
 
             _correctCount++;
             if (_correctCount < correctPerGauge)

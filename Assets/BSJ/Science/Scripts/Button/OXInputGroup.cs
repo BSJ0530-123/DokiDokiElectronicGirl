@@ -3,9 +3,6 @@ using UnityEngine;
 
 namespace MiYeonShi.Button
 {
-    /// <summary>
-    ///OX 버튼을 연결해 매니저에 전달해주는 스크립트
-    /// </summary>
     public class OXInputGroup : MonoBehaviour
     {
         public event Action<OXEnum> OnSelected;

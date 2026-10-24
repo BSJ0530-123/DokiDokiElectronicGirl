@@ -7,7 +7,9 @@ public class SpriteSwap : MonoBehaviour
     [SerializeField] Sprite[] _characterSprites;
     private SpriteRenderer _spriteRenderer;
     private GaugeManager _gaugeManager;
-
+    public AudioSource audioSource;
+    public AudioClip clip;
+    
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -25,13 +27,13 @@ public class SpriteSwap : MonoBehaviour
         if (_gaugeManager._current > _gaugeManager.max * 2 / 3)
         {
             _spriteRenderer.sprite = _characterSprites[2];
-            Debug.Log("세번째 스프라이트");
+            audioSource.PlayOneShot(clip);
         }
 
         else if (_gaugeManager._current > _gaugeManager.max * 1 / 3)
         {
             _spriteRenderer.sprite = _characterSprites[1];
-            Debug.Log("두번째 스프라이트");
+            audioSource.PlayOneShot(clip);
         }
 
 

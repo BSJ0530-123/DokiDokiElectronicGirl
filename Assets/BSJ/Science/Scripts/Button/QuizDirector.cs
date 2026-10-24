@@ -50,7 +50,6 @@ namespace MiYeonShi.Button
             ShowCurrent();
         }
         
-        //현재 콘텍스트 보여주기
         private void ShowCurrent()
         {
             if (contexts == null || _index >= contexts.Length)
@@ -80,7 +79,6 @@ namespace MiYeonShi.Button
             input.SetActive(false);
             contextUI.Hide();
             OnFinished?.Invoke();
-            Debug.Log("Quiz Finished");
 
             if (!_gaugeManager.isClear || _gaugeManager.Current < _gaugeManager.max)
             {

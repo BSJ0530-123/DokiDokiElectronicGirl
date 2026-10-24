@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d924fb4dcf407298db67e6813686db, type: 3}
+  m_Name: Context SO 78
+  m_EditorClassIdentifier: Assembly-CSharp::MiYeonShi.Context.ContextSO
+  personName: "\uC18C\uBE44\uC804\uB825 \uD68C\uC0AC\uC6D0 \"\uC2DC\uC628\""
+  content: "\u2018\uB450\uADFC\uB450\uADFC \uC804\uAE30 \uC18C\uB140\u2019\uC758
+    \uAC1C\uBC1C\uD300 \uC774\uB984\uC740 \u201C\uBC1C\uC804\uC18C\u201D \uC774\uB2E4."
+  isQuiz: 1
+  answerIsCorrect: 0

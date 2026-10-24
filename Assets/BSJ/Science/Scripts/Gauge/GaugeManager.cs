@@ -15,6 +15,7 @@ namespace MiYeonShi.Gauge
         [SerializeField] private GameObject _loveParticleSystem;
         [SerializeField] private ParticleSystem _loveEffect;
         private ParticleSystem.EmissionModule _loveEmission;
+        
 
         public bool isClear = false;
         
@@ -22,6 +23,9 @@ namespace MiYeonShi.Gauge
 
         public int _current;
 
+        [Header("오디오")]
+        public AudioSource audioSource;
+        public AudioClip rightClip;
         public int Max => max;
         public int Current => _current;
 
@@ -62,8 +66,9 @@ namespace MiYeonShi.Gauge
         public void Increase()
         {
             Set(_current + 1);
-            Debug.Log("한칸 올라감");
+            audioSource.PlayOneShot(rightClip);
             StartCoroutine(LoveEffectCoroutine());
+            
         }
 
         public void Decrease()
